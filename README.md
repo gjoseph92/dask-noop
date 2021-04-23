@@ -27,7 +27,7 @@ In [5]: with ProgressBar():
 [########################################] | 100% Completed |  3.2s
 
 In [6]: with ProgressBar():
-   ...:     as_noop(arr.mean()).compute()1
+   ...:     as_noop(arr.mean()).compute()
    ...:
 [########################################] | 100% Completed |  0.9s
 ```
